@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Cotton Kurta - Desi Bazaar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">DesiBazaar</h1>
+                <nav class="nav">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Products</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="cart-btn">Cart (0)</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Product Section -->
+    <main class="main">
+        <div class="container">
+            <div class="product-section">
+                <!-- Product Images Gallery -->
+                <div class="product-gallery">
+                    <div class="main-image-container">
+                        <img id="mainImage" src="https://images.unsplash.com/photo-1727835523545-70ee992b5763?w=600&h=600&fit=crop" alt="Premium Cotton Kurta" class="main-image">
+                        <div class="image-zoom-overlay"></div>
+                    </div>
+                    <div class="thumbnail-container">
+                        <div class="thumbnail-scroll">
+                            <img src="https://images.unsplash.com/photo-1727835523550-18478cacefa2?w=150&h=150&fit=crop" alt="Front view" class="thumbnail active" data-main="https://images.unsplash.com/photo-1727835523550-18478cacefa2?w=600&h=600&fit=crop">
+                            <img src="https://images.unsplash.com/photo-1701365676249-9d7ab5022dec?w=150&h=150&fit=crop" alt="Back view" class="thumbnail" data-main="https://images.unsplash.com/photo-1701365676249-9d7ab5022dec?w=600&h=600&fit=crop">
+                            <img src="https://images.unsplash.com/photo-1620730389810-9076d9dfff84?w=150&h=150&fit=crop" alt="Side view" class="thumbnail" data-main="https://images.unsplash.com/photo-1620730389810-9076d9dfff84?w=600&h=600&fit=crop">
+                            <img src="https://images.unsplash.com/photo-1744551358303-46edae8b374b?w=150&h=150&fit=crop" alt="Detail view" class="thumbnail" data-main="https://images.unsplash.com/photo-1744551358303-46edae8b374b?w=600&h=600&fit=crop">
+                            <img src="https://images.unsplash.com/photo-1711044871601-301f9b0ecf91?w=150&h=150&fit=crop" alt="Lifestyle view" class="thumbnail" data-main="https://images.unsplash.com/photo-1711044871601-301f9b0ecf91?w=600&h=600&fit=crop">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Details -->
+                <div class="product-details">
+                    <div class="product-header">
+                        <h1 class="product-title">Premium Cotton Kurta</h1>
+                        <div class="product-rating">
+                            <div class="stars">★★★★☆</div>
+                            <span class="rating-text">(247 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">₹899</span>
+                            <span class="original-price">₹1,299</span>
+                            <span class="discount">31% OFF</span>
+                        </div>
+                    </div>
+
+                    <!-- Product Variants -->
+                    <div class="product-variants">
+                        <!-- Color Selection -->
+                        <div class="variant-group">
+                            <label class="variant-label">Color: <span id="selectedColor">Royal Blue</span></label>
+                            <div class="color-swatches">
+                                <button class="color-swatch active" data-color="Royal Blue" style="background-color: #1e3a8a" aria-label="Royal Blue"></button>
+                                <button class="color-swatch" data-color="Saffron Orange" style="background-color: #ff9933" aria-label="Saffron Orange"></button>
+                                <button class="color-swatch" data-color="Forest Green" style="background-color: #166534" aria-label="Forest Green"></button>
+                                <button class="color-swatch" data-color="Maroon" style="background-color: #800000" aria-label="Maroon"></button>
+                                <button class="color-swatch" data-color="Cream White" style="background-color: #f5f5dc; border: 1px solid #e5e7eb" aria-label="Cream White"></button>
+                            </div>
+                            <button class="compare-colors-btn">Compare Colors</button>
+                        </div>
+
+                        <!-- Size Selection -->
+                        <div class="variant-group">
+                            <label class="variant-label">Size: <span id="selectedSize">Medium</span></label>
+                            <div class="size-options">
+                                <button class="size-option" data-size="XS">XS</button>
+                                <button class="size-option" data-size="S">S</button>
+                                <button class="size-option active" data-size="M">M</button>
+                                <button class="size-option" data-size="L">L</button>
+                                <button class="size-option" data-size="XL">XL</button>
+                                <button class="size-option" data-size="XXL">XXL</button>
+                            </div>
+                            <button class="size-chart-btn">Size Chart</button>
+                        </div>
+                    </div>
+
+                    <!-- Quantity and Add to Cart -->
+                    <div class="product-actions">
+                        <div class="quantity-selector">
+                            <label for="quantity">Quantity:</label>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn" data-action="decrease">-</button>
+                                <input type="number" id="quantity" value="1" min="1" max="10">
+                                <button class="quantity-btn" data-action="increase">+</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn">♡ Add to Wishlist</button>
+                    </div>
+
+                    <!-- Product Features -->
+                    <div class="product-features">
+                        <div class="feature">
+                            <span class="feature-icon">🚚</span>
+                            <span class="feature-text">Free shipping on orders over ₹999</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">↩️</span>
+                            <span class="feature-text">30-day return policy</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🔒</span>
+                            <span class="feature-text">Secure checkout</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Bundle Section -->
+            <div class="product-bundle">
+                <h3 class="bundle-title">Frequently Bought Together</h3>
+                <div class="bundle-items">
+                    <div class="bundle-item">
+                        <img src="https://images.unsplash.com/photo-1701365676249-9d7ab5022dec?w=100&h=100&fit=crop" alt="Premium Cotton Kurta" class="bundle-image">
+                        <div class="bundle-info">
+                            <h4 class="bundle-item-title">Premium Cotton Kurta</h4>
+                            <span class="bundle-price">₹899</span>
+                        </div>
+                    </div>
+                    <div class="bundle-plus">+</div>
+                    <div class="bundle-item">
+                        <img src="https://images.unsplash.com/photo-1693989253861-3327f2f2b759?w=100&h=100&fit=crop" alt="Cotton Pajama" class="bundle-image">
+                        <div class="bundle-info">
+                            <h4 class="bundle-item-title">Cotton Pajama</h4>
+                            <span class="bundle-price">₹649</span>
+                        </div>
+                    </div>
+                    <div class="bundle-plus">+</div>
+                    <div class="bundle-item">
+                        <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=100&h=100&fit=crop" alt="Leather Mojaris" class="bundle-image">
+                        <div class="bundle-info">
+                            <h4 class="bundle-item-title">Leather Mojaris</h4>
+                            <span class="bundle-price">₹1,299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bundle-pricing">
+                    <div class="bundle-total">
+                        <span class="bundle-original">Total: ₹2,847</span>
+                        <span class="bundle-discounted">Bundle Price: ₹2,499</span>
+                        <span class="bundle-savings">Save ₹348</span>
+                    </div>
+                    <button class="add-bundle-btn">Add Bundle to Cart</button>
+                </div>
+            </div>
+
+            <!-- Pair Well With Section -->
+            <div class="pair-well-with">
+                <h3 class="section-title">Pair Well With</h3>
+                <div class="products-scroll-container">
+                    <button class="scroll-btn scroll-left" aria-label="Scroll left">‹</button>
+                    <div class="products-scroll">
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1693989253861-3327f2f2b759?w=250&h=250&fit=crop" alt="Cotton Pajama" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Cotton Pajama</h4>
+                                <div class="product-price">₹649</div>
+                                <button class="quick-add-btn">Quick Add</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1653868250450-b83e6263d427?w=250&h=250&fit=crop" alt="Leather Mojaris" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Leather Mojaris</h4>
+                                <div class="product-price">₹1,299</div>
+                                <button class="quick-add-btn">Quick Add</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1638984849715-8984a7f95ee1?w=250&h=250&fit=crop" alt="Nehru Jacket" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Nehru Jacket</h4>
+                                <div class="product-price">₹1,899</div>
+                                <button class="quick-add-btn">Quick Add</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1609748340878-c690e3e4706b?w=250&h=250&fit=crop" alt="Silk Dupatta" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Silk Dupatta</h4>
+                                <div class="product-price">₹799</div>
+                                <button class="quick-add-btn">Quick Add</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=250&h=250&fit=crop" alt="Handloom Bag" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Handloom Bag</h4>
+                                <div class="product-price">₹549</div>
+                                <button class="quick-add-btn">Quick Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="scroll-btn scroll-right" aria-label="Scroll right">›</button>
+                </div>
+            </div>
+
+            <!-- Product Information Tabs -->
+            <div class="product-tabs">
+                <div class="tab-headers">
+                    <button class="tab-header active" data-tab="description">Description</button>
+                    <button class="tab-header" data-tab="information">Product Information</button>
+                    <button class="tab-header" data-tab="shipping">Shipping Details</button>
+                </div>
+                <div class="tab-contents">
+                    <div class="tab-content active" id="description">
+                        <h4>Product Description</h4>
+                        <p>Experience the perfect blend of tradition and comfort with our Premium Cotton Kurta. Handcrafted from 100% pure cotton sourced from the finest mills of India, this kurta embodies timeless elegance and modern comfort. The classic straight-cut design ensures a flattering fit for all occasions, from casual wear to festive celebrations.</p>
+                        <ul>
+                            <li>100% pure cotton fabric from Indian mills</li>
+                            <li>Traditional straight-cut design</li>
+                            <li>Reinforced stitching for durability</li>
+                            <li>Comfortable collar and button placket</li>
+                            <li>Easy care - machine washable</li>
+                            <li>Perfect for casual and semi-formal occasions</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="information">
+                        <h4>Product Information</h4>
+                        <table class="info-table">
+                            <tr>
+                                <td>Material</td>
+                                <td>100% Pure Cotton</td>
+                            </tr>
+                            <tr>
+                                <td>Weight</td>
+                                <td>200 GSM</td>
+                            </tr>
+                            <tr>
+                                <td>Fit</td>
+                                <td>Traditional Straight Cut</td>
+                            </tr>
+                            <tr>
+                                <td>Care Instructions</td>
+                                <td>Machine wash with mild detergent, air dry</td>
+                            </tr>
+                            <tr>
+                                <td>Country of Origin</td>
+                                <td>Made in India</td>
+                            </tr>
+                            <tr>
+                                <td>SKU</td>
+                                <td>PCK-001-RB</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-content" id="shipping">
+                        <h4>Shipping Details</h4>
+                        <div class="shipping-info">
+                            <div class="shipping-option">
+                                <h5>Standard Shipping (3-5 business days)</h5>
+                                <p>Free on orders over ₹999, otherwise ₹99</p>
+                            </div>
+                            <div class="shipping-option">
+                                <h5>Express Shipping (1-2 business days)</h5>
+                                <p>₹199 for all orders</p>
+                            </div>
+                            <div class="shipping-option">
+                                <h5>Same Day Delivery (Available in major cities)</h5>
+                                <p>₹299 for all orders</p>
+                            </div>
+                            <p><strong>Note:</strong> Orders placed before 2 PM IST ship the same day. Weekend orders ship on Monday. Cash on Delivery available.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Products Section -->
+            <div class="related-products">
+                <h3 class="section-title">You May Also Like</h3>
+                <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-badge">New</div>
+                            <img src="https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=300&h=300&fit=crop" alt="Nehru Jacket" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Designer Jacket</h4>
+                                <div class="product-price">₹1,899</div>
+                                <button class="quick-add-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-badge popular">Popular</div>
+                            <img src="https://images.unsplash.com/photo-1727430228383-aa1fb59db8bf?w=300&h=300&fit=crop" alt="Silk Dupatta" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Banarasi Silk Dupatta</h4>
+                                <div class="product-price">₹1,499</div>
+                                <button class="quick-add-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1650632784437-07f2aecafc28?w=300&h=300&fit=crop" alt="Cotton Dhoti" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Traditional Cotton Dhoti</h4>
+                                <div class="product-price">₹699</div>
+                                <button class="quick-add-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-badge">Sale</div>
+                            <img src="https://images.unsplash.com/photo-1653869225353-8101df710ff4?w=300&h=300&fit=crop" alt="Leather Mojaris" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-name">Handcrafted Mojaris</h4>
+                                <div class="product-price">
+                                    <span class="current-price">₹999</span>
+                                    <span class="original-price">₹1,499</span>
+                                </div>
+                                <button class="quick-add-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Size Chart Modal -->
+    <div id="sizeChartModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Size Chart</h3>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <table class="size-chart-table">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Chest (inches)</th>
+                            <th>Length (inches)</th>
+                            <th>Shoulder (inches)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>XS</td>
+                            <td>32-34</td>
+                            <td>26</td>
+                            <td>15.5</td>
+                        </tr>
+                        <tr>
+                            <td>S</td>
+                            <td>34-36</td>
+                            <td>27</td>
+                            <td>16.5</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td>36-38</td>
+                            <td>28</td>
+                            <td>17.5</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>38-40</td>
+                            <td>29</td>
+                            <td>18.5</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>40-42</td>
+                            <td>30</td>
+                            <td>19.5</td>
+                        </tr>
+                        <tr>
+                            <td>XXL</td>
+                            <td>42-44</td>
+                            <td>31</td>
+                            <td>20.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Compare Colors Modal -->
+    <div id="compareColorsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Compare Colors</h3>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Select colors to compare:</p>
+                <div class="compare-colors-grid">
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #1e3a8a"></div>
+                        <label>
+                            <input type="checkbox" value="Royal Blue" class="compare-checkbox">
+                            Royal Blue
+                        </label>
+                    </div>
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #ff9933"></div>
+                        <label>
+                            <input type="checkbox" value="Saffron Orange" class="compare-checkbox">
+                            Saffron Orange
+                        </label>
+                    </div>
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #166534"></div>
+                        <label>
+                            <input type="checkbox" value="Forest Green" class="compare-checkbox">
+                            Forest Green
+                        </label>
+                    </div>
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #800000"></div>
+                        <label>
+                            <input type="checkbox" value="Maroon" class="compare-checkbox">
+                            Maroon
+                        </label>
+                    </div>
+                    <div class="compare-color-item">
+                        <div class="compare-color-swatch" style="background-color: #f5f5dc; border: 1px solid #e5e7eb"></div>
+                        <label>
+                            <input type="checkbox" value="Cream White" class="compare-checkbox">
+                            Cream White
+                        </label>
+                    </div>
+                </div>
+                <div class="selected-colors">
+                    <h4>Selected Colors:</h4>
+                    <div id="selectedColorsDisplay" class="selected-colors-display">
+                        <p>No colors selected</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 DesiBazaar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
